@@ -60,7 +60,7 @@
      ;; cb-csharp
      ;; cb-rust
      cb-idris
-     ;; cb-agda
+     cb-agda
      cb-coffeescript
      cb-sql
      ;; cb-shell
