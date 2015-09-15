@@ -4,9 +4,6 @@
 [submodule "cb-core/extensions/super-smart-ops"]
 	path = cb-core/extensions/super-smart-ops
 	url = https://github.com/chrisbarrett/super-smart-ops.git
-[submodule "cb-agda/extensions/agda-mode"]
-	path = cb-agda/extensions/agda-mode
-	url = https://github.com/jwiegley/agda-mode.git
 [submodule "cb-haskell/extensions/liquid-types"]
 	path = cb-haskell/extensions/liquid-types
 	url = https://github.com/ucsd-progsys/liquid-types.el.git
