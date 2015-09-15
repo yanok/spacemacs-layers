@@ -222,6 +222,7 @@ before layers configuration."
   ;; Some random utilities and editor tools are installed in these dirs.
   (add-to-list 'exec-path "~/.cabal/bin/")
   (add-to-list 'exec-path "~/bin/")
+  (add-to-list 'exec-path "/usr/local/bin/")
 
   ;; Ensure the `cb-core' layer is loaded before all others. This layer contains
   ;; utilities needed by other layers.
