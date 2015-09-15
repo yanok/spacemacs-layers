@@ -14,6 +14,7 @@
    ;; of a list then all discovered layers will be installed.
    dotspacemacs-configuration-layers
    '(auto-completion
+     agda
      latex
      ;; haskell
      osx
@@ -60,7 +61,7 @@
      ;; cb-csharp
      ;; cb-rust
      cb-idris
-     cb-agda
+     ;; cb-agda
      cb-coffeescript
      cb-sql
      ;; cb-shell
