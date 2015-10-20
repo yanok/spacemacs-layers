@@ -78,12 +78,13 @@
      cb-js
      ;; cb-mu4e
      cb-cpp
+     antlr4
      )
    ;; List of additional packages that will be installed without being
    ;; wrapped in a layer. If you need some configuration for these
    ;; packages then consider to create a layer, you can also put the
    ;; configuration in `dotspacemacs/config'.
-   dotspacemacs-additional-packages '(antlr-mode muttrc-mode yaml-mode)
+   dotspacemacs-additional-packages '(muttrc-mode yaml-mode)
    ;; A list of packages and/or extensions that will not be install and loaded.
    dotspacemacs-excluded-packages
    '(rainbow-delimiters clean-aindent-mode eshell-prompt-extras company-quickhelp)
