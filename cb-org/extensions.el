@@ -216,7 +216,7 @@
 
       (add-hook 'org-agenda-mode-hook 'org-agenda-to-appt)
       (add-hook 'org-mode-hook 'visual-line-mode)
-      (add-hook 'org-mode-hook 'turn-off-auto-fill)
+      ;; (add-hook 'org-mode-hook 'turn-off-auto-fill)
       )))
 
 (defun cb-org/init-org-indent ()
