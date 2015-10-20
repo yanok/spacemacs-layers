@@ -141,7 +141,8 @@
     :diminish smart-ops-mode
     :config
     (progn
-      (smart-ops-global-mode)
+      (smart-ops-global-mode -1)
+      (add-hook 'prog-mode-hook (lambda () (smart-ops-mode 1)))
       (evil-define-key 'insert smart-ops-mode-map (kbd "<backspace>") nil))))
 
 (defun cb-core/init-case ()
