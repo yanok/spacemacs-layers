@@ -29,6 +29,7 @@
      finance
      org
      emacs-lisp
+     rcirc
      restclient
      syntax-checking
      (shell
