@@ -1,0 +1,16 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: grammar
+# key: grm
+# binding: direct-keybinding
+# --
+grammar ${1:`(file-name-base
+                (or (buffer-file-name)
+                    (buffer-name)))`} ;
+
+// Syntax rules
+
+${2:start}
+    : $0
+    ;
+
+// Lexical rules

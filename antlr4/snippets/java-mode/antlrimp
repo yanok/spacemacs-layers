@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: antlrimp
+# key: antlrimp
+# binding: direct-keybinding
+# --
+import org.antlr.v4.runtime.*;
+import org.antlr.v4.runtime.tree.*;
